@@ -5,10 +5,9 @@ Class community.objectscript.ClassExample
 
 Parameter Global = "^community.objectscript.settings";
 
-ClassMethod Test() As %Status
+ClassMethod GetTheUniverseSecret() As %Status
 {
-    set a=42
-    return "It works!"
+    return "42"
 }
 
 ClassMethod Version() As %String

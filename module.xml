@@ -8,6 +8,9 @@
       <SourcesRoot>src</SourcesRoot>
       <Resource Name="community.objectscript.PKG"/>
       <Resource Name="community.objectscript.settings.GBL"/>
+
+      <UnitTest Name="/tests" Package="community.objectscript.PKG" Phase="test"/>
+
       <Invokes>
         <Invoke Class="community.objectscript.PersistentClass" Method="CreateRecord"></Invoke>
         <Invoke Class="community.objectscript.ClassExample" Method="SetToTheGlobal">
