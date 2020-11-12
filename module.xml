@@ -3,7 +3,8 @@
   <Document name="objectscript-starter-pack-example.ZPM">
     <Module>
       <Name>objectscript-starter-pack-example</Name>
-      <Version>1.0.0</Version>
+      <Version>1.0.1</Version>
+      <Description>ObjectScript starter pack</Description>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
       <Resource Name="community.objectscript.PKG"/>
