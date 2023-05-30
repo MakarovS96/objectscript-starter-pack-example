@@ -59,7 +59,14 @@ Open IRIS terminal:
 ```
 $ docker-compose exec iris iris session iris
 USER>zn "IRISAPP"
-IRISAPP>write ##class(community.objectscript.ClassExample).Test()
+IRISAPP>write ##class(community.objectscript.PersistentClass).CreateRecord()
+1
+IRISAPP>write ##class(community.objectscript.PersistentClass).CreateRecord()
+1
+IRISAPP>write ##class(community.objectscript.PersistentClass).WriteAllRecords()
+ID=1 Test=Test string
+ID=2 Test=Test string
+
 ```
 ## How to start coding
 This repository is ready to code in VSCode with ObjectScript plugin.
